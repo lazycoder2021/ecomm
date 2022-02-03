@@ -10,9 +10,5 @@ if (!localStorage.getItem('id')) {
 
 const addToCartButton = document.querySelector('.add-to-cart-button'); 
 
-addToCartButton.addEventListener('click', function () {
-    console.log('works')
-})
 
-alert('works')
 
