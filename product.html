@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.min.css" integrity="sha512-ioRJH7yXnyX+7fXTQEKPULWkMn3CqMcapK0NNtCN8q//sW7ZeVFcbMJ9RvX99TwDg6P8rAH2IqUSt2TLab4Xmw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <style>   
+    
+    .container {
+            width: 1500px;
+            margin: 0px auto;
+            //border:1px solid black;
+            padding: 50px;
+            display: flex;
+            justify-content:space-between;
+        }
+
+        .container-section-1, .container-section-2 {
+            width: 50%;
+            //border:1px solid black;
+        }
+
+        .container-section-2 i{
+            float:right;
+            font-size:42px;
+            position:relative;
+        }
+
+
+        .selected-items {
+            width: 40px;
+            height: 40px;
+            border: 1px solid black;
+            margin-right: 5px;
+            margin-left: 5px;
+            font-size:18px;
+            padding-left:5px;
+        }
+
+        .add-to-cart-button {
+            background-color: black;
+            color: white;
+            width: 150px;
+            height: 40px;
+        }
+
+        .container-section-1 {
+            width: 800px;
+        }
+
+        .cartIcon{
+            //position:relative; 
+        }
+
+        .item-number{
+            position:absolute; 
+            top:40px; 
+            left:1450px;
+            width:20px;
+            height:20px;
+            border:1px solid black;
+            border-radius:50%;
+            background-color:black;
+            color:white; 
+            text-align:center;
+            display:flex;
+            justify-content:center; 
+            align-items:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-section-1">
+            <h2>product details page</h2>
+            <p>Sample Product Descrition:A vintage bat signed by sunil gavaskar himself. If you or your child doesn't play cricket, use it to bash your neighbor</p>
+            <input type="number" class="selected-items" value="1"/><button class="add-to-cart-button">Add to Cart</button>
+        </div>
+
+        <div class="container-section-2">
+            <div class="cartIcon"><i class='fas fa-cart-plus'></i></div>
+            <div class="item-number">1</div>
+        </div>
+    </div>
+    <script src="product.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin:0px; 
+    padding:0px; 
+    box-sizing:border-box; 
+}
+
+body{
+    font-family: 'Raleway'; 
+    font-size:20px; 
+}
+
+nav{
+    border:0px solid black; 
+    height:70px;
+    margin-top:20px;
+}
+
+.menu{
+    display:flex;
+    border:0px solid black; 
+    justify-content:space-around;
+    
+}
+
+.menu-buttons{
+    display:flex;
+}
+
+.register-btn, .login-btn, .logout-btn {
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.view-btn, .buy-btn {
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.all-products {
+    border: 0px solid black;
+    width: 1200px;
+    margin:20px auto 50px;
+    height: 500px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration:none; 
+    color:white;
+}
+
+.close, .close1{
+    cursor:pointer; 
+}
+
+.hide{
+    display:none;
+}
+
+.form-wrapper, .login-form-wrapper{
+    border:0px solid black;
+    height:40px;
+    
+}
+
+.sup{
+    display:inline;
+}
+
+input{
+    font-family:'Raleway'; 
+    font-size:14px;
+}
+
+.single-product {
+    padding-top: 10px;
+    border: 1px solid black;
+    width: 288px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-right:4px;
+}
+
+button{
+    padding:3px 30px;
+}
+
+h3, p, button{
+    margin-bottom:20px;
+}
+
+.selected-items{
+    width:30px;
+    height:40px;
+    border:2px solid black;
+}
+
+.add-to-cart-button{
+    background-color:black;
+}
